@@ -51,7 +51,8 @@ fourthTask();
 
 let arr = [];
 
-for (let i = 5; i>=10; i++){
+for (let i = 5; i<=10; i++){
     arr[i-5] = i;
 }
 console.log(arr);
+console.log(arr[2]);
